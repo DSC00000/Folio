@@ -51,6 +51,16 @@ a:active {
     text-decoration: none;
 }
 
+.oddManOut {
+    color: #FB5507 !important;
+    border: 1px solid #FB5507 !important;
+}
+
+.oddManOut:hover {
+    color: #fff !important;
+    background-color: #FB5507 !important;
+}
+
 /*=========== Typography ============*/
 h1 {
     font-size: 75px;
@@ -843,7 +853,7 @@ h6 {
 
 .services .service .service-icon i {
     background: #2b3d4f;
-    color: #FB5507;
+    color: #16c0f0;
     width: 55px;
     height: 55px;
     line-height: 55px;
@@ -854,7 +864,7 @@ h6 {
 
 .services .service:hover .service-icon i {
     background: #16c0f0;
-    color: #fff;
+    color: #16c0f0;
 }
 
 .services .service h4 {
@@ -931,7 +941,7 @@ h6 {
     width: 10px;
     border-radius: 50%;
     background-color: #2c3c4f;
-    border: 2px solid #25aceb;
+    border: 2px solid #FB5507;
     -webkit-transition: all .7s cubic-bezier(.47, 0, .745, .715);
     transition: all .7s cubic-bezier(.47, 0, .745, .715);
     -webkit-animation: pulse2 1s infinite cubic-bezier(.66, 0, 0, 1);
@@ -941,7 +951,7 @@ h6 {
 }
 
 .resume .timeline ul li:hover:before {
-    background-color: #25aceb;
+    background-color: #FB5507;
     border: none;
 }
 
@@ -992,7 +1002,7 @@ h6 {
     padding: 15px 0;
     letter-spacing: .5px;
     text-transform: capitalize;
-    color: #FB5507;
+    color: #16c0f0;
 }
 
 .resume .timeline ul li .timeline-content p:first-of-type {
@@ -1151,7 +1161,7 @@ h6 {
 
 .portfolio .portfolio-content .item:hover .overlay .item-category span {
     top: 39%;
-    color: #16c0f0;
+    color: #FB5507;
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -1647,10 +1657,12 @@ h6 {
 .contact .contact-form .contact-btn {
     outline: none;
     min-width: 160px;
+    border: solid 1px #FB5507;
 }
 
 .contact .contact-form .contact-btn:hover {
     color: #fff;
+    background-color: #FB5507;
 }
 
 .contact .contact-form .form-message {
