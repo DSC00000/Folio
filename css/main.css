@@ -436,11 +436,11 @@ h6 {
     margin-left: 3px;
     width: 5px;
     height: 5px;
-    background-color: #16c0f0;
+    background-color: #FB5507;
 }
 
 .navbar .navbar-brand span {
-    color: #16c0f0;
+    color: #FB5507;
 }
 
 .navbar .navbar-links {
@@ -577,7 +577,7 @@ h6 {
 -----------------------------------------*/
 
 .home {
-    background: url("https://via.placeholder.com/1920x1280") center center no-repeat fixed;
+    background: url("C:\Users\jberry\Documents\Folio\Folio\images\safar-safarov-MSN8TFhJ0is-unsplash.jpg") center center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
