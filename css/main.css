@@ -488,11 +488,11 @@ h6 {
 	margin-left: 3px;
 	width: 5px;
 	height: 5px;
-	background-color: #16c0f0;
+	background-color: #FB5507;
 }
 
 .navbar .navbar-links .navbar-nav > li.nav-brand a span {
-	color: #16c0f0;
+	color: #FB5507;
 }
 
 .navbar .navbar-nav > li {
@@ -577,7 +577,7 @@ h6 {
 -----------------------------------------*/
 
 .home {
-    background: url("C:\Users\jberry\Documents\Folio\Folio\images\safar-safarov-MSN8TFhJ0is-unsplash.jpg") center center no-repeat fixed;
+    background: url(\images\safar-safarov-MSN8TFhJ0is-unsplash.jpg) center center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -613,7 +613,7 @@ h6 {
 }
 
 .home .intro p span {
-    color: #16c0f0;
+    color: #FB5507;
 }
 
 .home .intro .main-btn {
@@ -653,7 +653,7 @@ h6 {
     left: 7px;
     width: 2px;
     height: 52px;
-    background: rgba(22, 192, 240, .6);
+    background: #FB5507;
 }
 
 .home ul li {
@@ -751,6 +751,15 @@ h6 {
     margin-bottom: 15px;
 }
 
+.about-me .about-info h3 strong {
+    color: #FB5507;
+    font-size: 31px;
+    font-weight: 600;
+    letter-spacing: .3px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
 .about-me .about-info h5 {
     font-size: 16px;
 	font-weight: 600;
@@ -834,7 +843,7 @@ h6 {
 
 .services .service .service-icon i {
     background: #2b3d4f;
-    color: #16c0f0;
+    color: #FB5507;
     width: 55px;
     height: 55px;
     line-height: 55px;
@@ -983,7 +992,7 @@ h6 {
     padding: 15px 0;
     letter-spacing: .5px;
     text-transform: capitalize;
-    color: #16c0f0;
+    color: #FB5507;
 }
 
 .resume .timeline ul li .timeline-content p:first-of-type {
