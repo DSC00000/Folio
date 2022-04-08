@@ -62,7 +62,7 @@
 						<li><a data-menuanchor="resume" href="#resume"><i class="fa fa-graduation-cap"></i>Resume</a></li>
 						<li><a data-menuanchor="portfolio" href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
 						<!-- <li><a data-menuanchor="blog" href="#blog"><i class="fa fa-newspaper-o"></i>Blog</a></li> -->
-						<li><a data-menuanchor="contact" href="#testimonials"><i class="fa fa-map-marker"></i>Contact</a></li>
+						<li><a data-menuanchor="contact" href="#contact"><i class="fa fa-map-marker"></i>Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -204,9 +204,9 @@
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
-							<div class="service">
-								<div class="service-icon">
-									<i class="fa fa-support fa-lg oddManOut"></i>
+							<div class="service service-alt">
+								<div class="service-icon service-icon-alt">
+									<i class="fa fa-support fa-lg"></i>
 								</div>
 								<h4>Fast Support</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm.</p>
@@ -254,7 +254,7 @@
 										</div>
 									</li>
 									<li>
-										<div class="timeline-content">
+										<div class="timeline-content timeline-content-alt">
 											<div class="timeline-icon"><i class="fa fa-graduation-cap"></i></div>
 											<h4>Resilient Coders</h4>
 											<p><i class="fa fa-calendar"></i>2022 - 2022 | #100Devs</p>
@@ -491,14 +491,14 @@
 				$('#pagepiling').pagepiling({
 					menu: '#myMenu',
 					normalScrollElements: null,
-					anchors: ['home', 'about', 'services', 'resume', 'portfolio', 'testimonials', 'blog', 'contact'],
+					anchors: ['home', 'about', 'services', 'resume', 'portfolio', 'contact'], //'testimonials', 'blog',
 					sectionsColor: ['#263446', '#2b3d4f', '#263446', '#2b3d4f', '#263446'],
 					keyboardScrolling: false,
 					navigation: {
 						'textColor': '#16c0f0',
 						'bulletsColor': '#16c0f0',
 						'position': 'right',
-						'tooltips': ['Home', 'About', 'Services', 'Resume', 'Portfolio', 'Testimonials', 'Blog', 'Contact']
+						'tooltips': ['Home', 'About', 'Services', 'Resume', 'Portfolio', 'Contact'] //'Testimonials', 'Blog', 
 					}
 				});
 			});

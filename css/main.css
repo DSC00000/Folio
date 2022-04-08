@@ -51,16 +51,6 @@ a:active {
     text-decoration: none;
 }
 
-.oddManOut {
-    color: #FB5507 !important;
-    border: 1px solid #FB5507 !important;
-}
-
-.oddManOut:hover {
-    color: #fff !important;
-    background-color: #FB5507 !important;
-}
-
 /*=========== Typography ============*/
 h1 {
     font-size: 75px;
@@ -213,7 +203,7 @@ h6 {
 
 .pp-tooltip {
     top: -5px;
-    color: #fff;
+    color: #FFF;
 	font-weight: 600;
 	letter-spacing: 1px;
     font-family: 'Open Sans', sans-serif;
@@ -867,6 +857,21 @@ h6 {
     color: #16c0f0;
 }
 
+.services .service-alt .service-icon-alt i {
+    background: #2b3d4f;
+    color: #FB5507;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 25px;
+    border: 1px solid #FB5507;
+    border-radius: 50%;
+}
+
+.services .service-alt:hover .service-icon-alt i {
+    background: #FB5507;
+    color: #FFF;
+}
 .services .service h4 {
     display: inline-block;
     color: #fff;
@@ -941,7 +946,7 @@ h6 {
     width: 10px;
     border-radius: 50%;
     background-color: #2c3c4f;
-    border: 2px solid #FB5507;
+    border: 2px solid #16c0f0;
     -webkit-transition: all .7s cubic-bezier(.47, 0, .745, .715);
     transition: all .7s cubic-bezier(.47, 0, .745, .715);
     -webkit-animation: pulse2 1s infinite cubic-bezier(.66, 0, 0, 1);
@@ -952,6 +957,7 @@ h6 {
 
 .resume .timeline ul li:hover:before {
     background-color: #FB5507;
+    color: #FB5507;
     border: none;
 }
 
@@ -1003,6 +1009,10 @@ h6 {
     letter-spacing: .5px;
     text-transform: capitalize;
     color: #16c0f0;
+}
+
+.resume .timeline ul li .timeline-content-alt h4 {
+    color: #FB5507;
 }
 
 .resume .timeline ul li .timeline-content p:first-of-type {
@@ -1657,6 +1667,7 @@ h6 {
 .contact .contact-form .contact-btn {
     outline: none;
     min-width: 160px;
+    color: #FB5507;
     border: solid 1px #FB5507;
 }
 
