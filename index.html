@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Folio - Personal Portfolio Template">
-        <meta name="keywords" content="Html, Css, jQuery, JavaScript, Folio, personal, Portfolio, design, creative, modern, template">
+        <meta name="description" content="RUBRnek - Built with Folio">
+        <meta name="keywords" content="Html, Css, jQuery, JavaScript, Folio, RUBRnek, Portfolio, design, creative, modern, template">
         
         <!-- Title -->
         <title>RUBRNEK - Web Development</title>
@@ -62,7 +62,7 @@
 						<li><a data-menuanchor="resume" href="#resume"><i class="fa fa-graduation-cap"></i>Resume</a></li>
 						<li><a data-menuanchor="portfolio" href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
 						<!-- <li><a data-menuanchor="blog" href="#blog"><i class="fa fa-newspaper-o"></i>Blog</a></li> -->
-						<li><a data-menuanchor="contact" href="#testimonials"><i class="fa fa-map-marker"></i>Contact</a></li>
+						<li><a data-menuanchor="contact" href="#contact"><i class="fa fa-map-marker"></i>Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -93,7 +93,7 @@
 								<!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
 								<li><a href="https://www.linkedin.com/in/jgb315/"><i class="fa fa-linkedin"></i></a></li>
 							</ul>
-						</div>
+						</div>						
 					</div>
 				</div> 
 			</section>
@@ -254,7 +254,7 @@
 										</div>
 									</li>
 									<li>
-										<div class="timeline-content">
+										<div class="timeline-content timeline-content-alt">
 											<div class="timeline-icon"><i class="fa fa-graduation-cap"></i></div>
 											<h4>Resilient Coders</h4>
 											<p><i class="fa fa-calendar"></i>2022 - 2022 | #100Devs</p>
@@ -388,6 +388,14 @@
 
 						</div>
 					</div>
+					<!-- ========= Start Github API Implementation ========= -->
+					<div class="main-title gitapi">
+						<h2>My latest Github commit for this website</h2>
+					</div>
+					<div>
+						<pre id="message">Loading</pre>
+					</div>
+					<!-- ========= End Github API Implementation ========= -->
 				</div>
 			</section>
 
@@ -462,6 +470,15 @@
 						</div>
 					</div>
 				</div>
+
+				<!-- ========== Start Footer ========== -->
+				<footer class="footer">
+					<ul class="copyright">
+						<li>&copy; RUBRNEK. All rights reserved. +1.877.633.5505</li><li>Design: <a href="https://rubrnek.netlify.app">RUBRNEK</a></li>
+					</ul>
+				</footer>
+				<!-- ========== End Footer ========== -->
+				
 			</section>
 
 			<!-- ========== End Contact ========== -->
@@ -491,14 +508,14 @@
 				$('#pagepiling').pagepiling({
 					menu: '#myMenu',
 					normalScrollElements: null,
-					anchors: ['home', 'about', 'services', 'resume', 'portfolio', 'testimonials', 'blog', 'contact'],
-					sectionsColor: ['#263446', '#2b3d4f', '#263446', '#2b3d4f', '#263446'],
+					anchors: ['home', 'about', 'services', 'resume', 'portfolio', 'contact'], //'testimonials', 'blog',
+					sectionsColor: ['#263446', '#2b3d4f', '#263446', '#2b3d4f', '#263446','#2b3d4f'],
 					keyboardScrolling: false,
 					navigation: {
 						'textColor': '#16c0f0',
 						'bulletsColor': '#16c0f0',
 						'position': 'right',
-						'tooltips': ['Home', 'About', 'Services', 'Resume', 'Portfolio', 'Testimonials', 'Blog', 'Contact']
+						'tooltips': ['Home', 'About', 'Services', 'Resume', 'Portfolio', 'Contact'] //'Testimonials', 'Blog', 
 					}
 				});
 			});

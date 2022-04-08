@@ -24,7 +24,7 @@ $(function () {
     
     /*========== Typed  ==========*/
     $(".home p span").typed({
-        strings: ["Freelancer.", "Designer.", "Developer."],
+        strings: ["Freelancer.", "Software Engineer.", "Web Developer."],
         cursorChar: "",
         typeSpeed: 90,
         loop: true,
@@ -137,4 +137,10 @@ $(function () {
 		
 	});
 	
+    /*========== GitHub API Grab Latest Commit =========*/
+    fetch('https://api.github.com/repos/grokkfried/Folio/commits?per_page=1')
+  .then(res => res.json())
+  .then(res => {
+    document.getElementById('message').innerHTML = res[0].commit.message
+  })
 });
