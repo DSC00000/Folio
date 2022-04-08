@@ -858,7 +858,7 @@ h6 {
 
 .services .service:hover .service-icon i {
     background: #16c0f0;
-    color: #16c0f0;
+    color: #FFF;
 }
 
 .services .service-alt .service-icon-alt i {
