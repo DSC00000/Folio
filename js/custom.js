@@ -118,17 +118,17 @@ $(function () {
 			data: data,
 			success: function (response) {
 				
-				if (response == "success") {
+				//if (response == "success") {
 								
 					$(".contact-form").find(".form-message").addClass("success");
 					$(".form-message span").text("Message Sent!");
 					
-				} else {
+				//} else {
 					
-					$(".contact-form").find(".form-message").addClass("error");
-					$(".form-message span").text("Error Sending!");
+					//$(".contact-form").find(".form-message").addClass("error");
+					//$(".form-message span").text("Error Sending!");
 					
-				}
+				//}
 			}
 			
 		});
